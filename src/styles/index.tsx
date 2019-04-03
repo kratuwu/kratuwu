@@ -1,18 +1,9 @@
-import React from "react";
-import { Global } from "@emotion/core";
-import "./styles.css";
-export function GlobalStyle() {
-  return (
-    <Global
-      styles={{
-        body: {
-          background: "#fff",
-          // fontFamily: BODY_FONT,
-          color: "#212121",
-          fontSize: "14px",
-          lineHeight: "1.5"
-        }
-      }}
-    />
-  );
-}
+import {createGlobalStyle} from 'styled-components'
+import './styles.css'
+
+export const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    font-family: 'Roboto';
+  }
+`

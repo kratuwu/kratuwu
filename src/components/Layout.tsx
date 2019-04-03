@@ -1,10 +1,16 @@
-import React from "react";
+import React, { SFC } from "react";
 import { GlobalStyle } from "../styles/index";
-const Layout:React.SFC<{}> = ({ children }) => {
+import Header from "./Header";
+import Content from "./Content";
+import Footer from "./Footer";
+
+const Layout: SFC<{}> = ({ children }) => {
   return (
     <div>
       <GlobalStyle />
-      {children}
+      <Header />
+      <Content>{children}</Content>
+      <Footer />
     </div>
   );
 };
