@@ -7,11 +7,20 @@ type NavigationProps = {
 };
 
 const NavigationWrapper = styled.div`
+  background: white;
   margin-left: "auto";
+  @media (max-width: 768px) {
+    flex-basis: 100%;
+  }
 `;
 
 const NavigationGroup = styled.ul`
   display: flex;
+  margin: 0;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 0;
+  }
 `;
 
 const NavigationItem = styled.li`
