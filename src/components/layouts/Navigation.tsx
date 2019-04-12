@@ -12,6 +12,7 @@ const NavigationWrapper = styled.div<{open: boolean}>`
   @media (max-width: 768px) {
     flex-basis: 100%;
     display: ${props=> props.open? 'block': 'none'};
+    background: black;
   }
 `
 
@@ -20,6 +21,7 @@ const NavigationGroup = styled.ul`
   margin: 0;
   @media (max-width: 768px) {
     flex-direction: column;
+    color: white
     padding: 0;
   }
 `;
