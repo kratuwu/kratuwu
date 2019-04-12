@@ -4,15 +4,16 @@ import { ContentRef } from "../../types";
 
 type NavigationProps = {
   contentRefs: ContentRef[];
+  open: boolean;
 };
-
-const NavigationWrapper = styled.div`
+const NavigationWrapper = styled.div<{open: boolean}>`
   background: white;
-  margin-left: "auto";
+  margin-left: auto;
   @media (max-width: 768px) {
     flex-basis: 100%;
+    display: ${props=> props.open? 'block': 'none'};
   }
-`;
+`
 
 const NavigationGroup = styled.ul`
   display: flex;
@@ -33,8 +34,8 @@ const scrollToRef = (ref: any) => {
   window.scrollTo(0, ref.current.offsetTop - 60);
 };
 
-const Navigation: SFC<NavigationProps> = ({ contentRefs }) => (
-  <NavigationWrapper style={{ marginLeft: "auto" }}>
+const Navigation: SFC<NavigationProps> = ({ contentRefs, open }) => (
+  <NavigationWrapper open={open}>
     <NavigationGroup>
       {contentRefs.map((contentRef: ContentRef) => (
         <NavigationItem

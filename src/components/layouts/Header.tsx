@@ -4,6 +4,7 @@ import styled from "styled-components";
 const HeaderStyled = styled.header`
   top: 0;
   left: 0;
+  background: white;
   position: fixed;
   line-height: 60px;
   width: 100%;
@@ -25,17 +26,11 @@ const HeaderWraper = styled.nav`
   align-items: center;
 `;
 
-const Brand = styled.div`
-  font-size: 24px;
-  font-weight: bold;
-  padding-left: 10px;
-`;
 
 const Header: SFC<{}> = ({ children }: any) => {
   return (
     <HeaderStyled>
       <HeaderWraper>
-        <Brand>Kratuwu</Brand>
         {children}
       </HeaderWraper>
     </HeaderStyled>
