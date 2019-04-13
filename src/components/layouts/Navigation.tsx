@@ -1,4 +1,4 @@
-import React, { SFC } from "react";
+import React, { SFC, createRef, useState, useEffect } from "react";
 import styled from "styled-components";
 import { ContentRef } from "../../types";
 
@@ -7,19 +7,19 @@ type NavigationProps = {
   open: boolean;
 };
 const NavigationWrapper = styled.div<{open: boolean}>`
-    flex-basis: 100%;
-    transform: ${props=> props.open? 'scaleY(1)': 'scaleY(0)'};    
-    transform-origin: top;
-    transition: transform 0.26s ease;
-    background: black;
-    
+  flex-basis: 100%;
+  background: black;
+  max-height: ${props=> props.open?'212px':'0px'};
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);
   @media (min-width: 768px) {
+    box-shadow: unset;
+    max-height: unset;
     background: white;
     margin-left: auto;
-    transform: none;
-    transition: none;
     flex-basis: 0;
-    display: block;
+    overflow: unset;
   }
 `
 
@@ -36,6 +36,7 @@ const NavigationGroup = styled.ul`
 `;
 
 const NavigationItem = styled.li`
+  text-align: center;
   list-style: none;
   padding: 0 10px;
   cursor: pointer;
@@ -45,8 +46,9 @@ const scrollToRef = (ref: any) => {
   window.scrollTo(0, ref.current.offsetTop - 60);
 };
 
-const Navigation: SFC<NavigationProps> = ({ contentRefs, open }) => (
-  <NavigationWrapper open={open}>
+const Navigation: SFC<NavigationProps> = ({ contentRefs, open }) => {
+  return(
+  <NavigationWrapper open={open} >
     <NavigationGroup>
       {contentRefs.map((contentRef: ContentRef) => (
         <NavigationItem
@@ -57,6 +59,6 @@ const Navigation: SFC<NavigationProps> = ({ contentRefs, open }) => (
       ))}
     </NavigationGroup>
   </NavigationWrapper>
-);
+)};
 
 export default Navigation;
