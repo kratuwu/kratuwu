@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from "styled-components";
 
 const HamburgerWrapper = styled.div`
-    display: none;
+    padding-right: 10px;
+    margin-left: auto;
+    display: block;
     cursor: pointer;
-    @media (max-width: 768px) {
-        padding-right: 10px;
-        margin-left: auto;
-        display: block;
+    @media (min-width: 768px) {
+        display: none;
     }
 `;
 

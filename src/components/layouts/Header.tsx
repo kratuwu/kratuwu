@@ -18,7 +18,7 @@ const HeaderWraper = styled.nav`
   @media (min-width: 1200px) {
     max-width: 1140px;
   }
-  height: 100%;
+  height: 60px;
   margin-left: auto;
   margin-right: auto;
   display: flex;

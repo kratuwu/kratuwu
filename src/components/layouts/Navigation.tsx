@@ -7,22 +7,31 @@ type NavigationProps = {
   open: boolean;
 };
 const NavigationWrapper = styled.div<{open: boolean}>`
-  background: white;
-  margin-left: auto;
-  @media (max-width: 768px) {
     flex-basis: 100%;
-    display: ${props=> props.open? 'block': 'none'};
+    transform: ${props=> props.open? 'scaleY(1)': 'scaleY(0)'};    
+    transform-origin: top;
+    transition: transform 0.26s ease;
     background: black;
+    
+  @media (min-width: 768px) {
+    background: white;
+    margin-left: auto;
+    transform: none;
+    transition: none;
+    flex-basis: 0;
+    display: block;
   }
 `
 
 const NavigationGroup = styled.ul`
-  display: flex;
-  margin: 0;
-  @media (max-width: 768px) {
     flex-direction: column;
-    color: white
+    color: white;
     padding: 0;
+  @media (min-width: 768px) {
+    display: flex;
+    margin: 0;
+    color: black;
+    flex-direction: row;
   }
 `;
 
