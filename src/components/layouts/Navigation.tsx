@@ -6,6 +6,7 @@ type NavigationProps = {
   contentRefs: ContentRef[];
   open: boolean;
 };
+
 const NavigationWrapper = styled.div<{open: boolean}>`
   flex-basis: 100%;
   background: black;
@@ -24,14 +25,14 @@ const NavigationWrapper = styled.div<{open: boolean}>`
 `
 
 const NavigationGroup = styled.ul`
+    display: flex;
     flex-direction: column;
     color: white;
     padding: 0;
   @media (min-width: 768px) {
-    display: flex;
     margin: 0;
     color: black;
-    flex-direction: row;
+    flex-direction: unset;
   }
 `;
 
