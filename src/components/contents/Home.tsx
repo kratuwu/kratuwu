@@ -51,4 +51,4 @@ const Home = ({ forwardedRef }: any) => {
   );
 };
 
-export default forwardRef((props, ref) => <Home forwardedRef={ref} />);
+export default forwardRef((props, ref) => <Home {...props} forwardedRef={ref} />);

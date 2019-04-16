@@ -3,7 +3,7 @@ import MainLayout from "./components/layouts/MainLayout";
 import Home from "./components/contents/Home";
 import About from "./components/contents/About";
 import Contact from "./components/contents/Contact";
-import { ContentRef } from "./types";
+import { ContentRef } from "../types";
 import { GlobalStyle } from "./styles";
 const App = () => {
   const homeRef = createRef();

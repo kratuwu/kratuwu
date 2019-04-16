@@ -1,6 +1,6 @@
-import React, { SFC, createRef, useState, useEffect } from "react";
+import React, { SFC } from "react";
 import styled from "styled-components";
-import { ContentRef } from "../../types";
+import { ContentRef } from "../../../types";
 
 type NavigationProps = {
   contentRefs: ContentRef[];
@@ -10,7 +10,7 @@ type NavigationProps = {
 const NavigationWrapper = styled.div<{open: boolean}>`
   flex-basis: 100%;
   background: black;
-  max-height: ${props=> props.open?'212px':'0px'};
+  max-height: ${(props: any)=> props.open?'212px':'0px'};
   overflow: hidden;
   transition: max-height 0.3s ease;
   box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.5);

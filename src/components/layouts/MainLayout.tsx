@@ -1,10 +1,11 @@
 import React, { SFC, useState } from "react";
+import styled from "styled-components";
+
 import Header from "./Header";
 import Navigation from "./Navigation";
 import Hamburger from "../Hamburger";
 import Footer from "./Footer";
-import styled from "styled-components";
-import { ContentRef } from "../../types";
+import { ContentRef } from "../../../types";
 
 const ContentWrapper = styled.div`
   margin-top: 60px;

@@ -4,4 +4,4 @@ const About = ({ forwardedRef }: any) => {
   return <div ref={forwardedRef}>About</div>;
 };
 
-export default forwardRef((props, ref) => <About forwardedRef={ref} />);
+export default forwardRef((props, ref) => <About {...props} forwardedRef={ref} />);
