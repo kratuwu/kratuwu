@@ -18,7 +18,7 @@ const blinkCaret  = keyframes`
 const Caret = styled.span`
   animation: ${blinkCaret} .75s step-end infinite;
 `
-let textTitle: string = "Welcome to Kratuwu.";
+const textTitle: string = "Welcome to Kratuwu.";
 
 const Home = ({ forwardedRef }: any) => {
   const [textTyper, setTextTyper] = useState('');
@@ -27,13 +27,12 @@ const Home = ({ forwardedRef }: any) => {
     if (n < (textTitle.length)) {
       n++;
       setTextTyper(textTitle.substring(0, n));
-      setTimeout( () => { typer(n) }, 60 );
+      setTimeout( () => { typer(n) }, 80 );
     }
   }
 
-  useEffect(() => {
-    typer();
-  }, []);
+  useEffect(() => { typer(); }, []);
+  
   return (
     <HomeWrapper ref={forwardedRef}>
       <HomeContainer >
