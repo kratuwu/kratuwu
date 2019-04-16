@@ -18,6 +18,9 @@ const blinkCaret  = keyframes`
 const Caret = styled.span`
   animation: ${blinkCaret} .75s step-end infinite;
 `
+const TitleStyled = styled.h1`
+  font-size: 32px;
+`
 const textTitle: string = "Welcome to Kratuwu.";
 
 const Home = ({ forwardedRef }: any) => {
@@ -36,10 +39,10 @@ const Home = ({ forwardedRef }: any) => {
   return (
     <HomeWrapper ref={forwardedRef}>
       <HomeContainer >
-        <h1>
+        <TitleStyled>
           <span>{textTyper}</span>
           <Caret>|</Caret>
-        </h1>
+        </TitleStyled>
       </HomeContainer>
     </HomeWrapper>
   );
