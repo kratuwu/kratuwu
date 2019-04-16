@@ -44,7 +44,10 @@ const NavigationItem = styled.li`
 `;
 
 const scrollToRef = (ref: any) => {
-  window.scrollTo(0, ref.current.offsetTop - 60);
+  window.scrollTo({
+    top: ref.current.offsetTop - 60,
+    behavior: 'smooth',
+  });
 };
 
 const Navigation: SFC<NavigationProps> = ({ contentRefs, open }) => {
