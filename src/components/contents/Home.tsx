@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 
 const HomeWrapper = styled.div`
@@ -9,32 +9,38 @@ const HomeWrapper = styled.div`
 `
 const HomeContainer = styled.div`
   margin: auto;
+  display: flex;
 `
-const typing = keyframes`
-  from { width: 0 }
-  to { width: 100% }
-`;
-
 const blinkCaret  = keyframes`
-  from, to { border-color: transparent }
-  50% { border-color: white; }
+  from, to { color: transparent }
+  50% { color: white; }
 `
-const TypeWriter = styled.h1`
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .1em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    ${typing} 1s steps(20, end),
-    ${blinkCaret} .75s step-end infinite;
+const Caret = styled.span`
+  animation: ${blinkCaret} .75s step-end infinite;
 `
+let textTitle: string = "Welcome to Kratuwu.";
 
 const Home = ({ forwardedRef }: any) => {
+  const [textTyper, setTextTyper] = useState('');
+
+  const typer =(n: number = 0) => {
+    if (n < (textTitle.length)) {
+      n++;
+      setTextTyper(textTitle.substring(0, n));
+      setTimeout( () => { typer(n) }, 60 );
+    }
+  }
+
+  useEffect(() => {
+    typer();
+  }, []);
   return (
     <HomeWrapper ref={forwardedRef}>
       <HomeContainer >
-        <TypeWriter>Welcome to Kratuwu</TypeWriter>
+        <h1>
+          <span>{textTyper}</span>
+          <Caret>|</Caret>
+        </h1>
       </HomeContainer>
     </HomeWrapper>
   );
