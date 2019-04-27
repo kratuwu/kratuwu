@@ -19,9 +19,9 @@ const App = () => {
   return (
     <MainLayout contentRefs={contentRefs}>
       <GlobalStyle />
-      <Home ref={homeRef} />
-      <About ref={aboutRef} />
-      <Contact ref={contactRef} />
+      <Home forwardedRef={homeRef} />
+      <About forwardedRef={aboutRef} />
+      <Contact forwardedRef={contactRef} />
     </MainLayout>
   );
 };

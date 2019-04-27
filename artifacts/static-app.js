@@ -980,11 +980,36 @@ var Home_Home = function Home(_ref) {
 
 
 
+function About_templateObject2() {
+  var data = taggedTemplateLiteral_default()(["\n  font-size: 32px;\n  @media(min-width: 640px){\n    font-size: 64px;\n  }\n"]);
+
+  About_templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function About_templateObject() {
+  var data = taggedTemplateLiteral_default()(["\n  height: calc(100vh - 60px);\n  display: flex;\n  justify-content: center;\n"]);
+
+  About_templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+
+
+var AboutWrapper = external_styled_components_default.a.div(About_templateObject());
+var AboutTitle = external_styled_components_default.a.h1(About_templateObject2());
+
 var About_About = function About(_ref) {
   var forwardedRef = _ref.forwardedRef;
-  return external_react_default.a.createElement("div", {
+  return external_react_default.a.createElement(AboutWrapper, {
     ref: forwardedRef
-  }, "About");
+  }, external_react_default.a.createElement(AboutTitle, null, "About"));
 };
 
 /* harmony default export */ var contents_About = (Object(external_react_["forwardRef"])(function (props, ref) {

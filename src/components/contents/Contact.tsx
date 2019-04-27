@@ -1,7 +1,7 @@
-import React, { forwardRef } from "react";
+import React from "react";
 
 const Contact = ({ forwardedRef }: any) => {
   return <div ref={forwardedRef}>Contact</div>;
 };
 
-export default forwardRef((props, ref) => <Contact {...props} forwardedRef={ref} />);
+export default Contact;

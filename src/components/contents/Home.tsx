@@ -1,17 +1,18 @@
-import React, { forwardRef, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
-
+import Social from "../Social"
 const HomeWrapper = styled.div`
   height: calc(100vh - 60px);
   background-color: rgba(0,0,0,.65);
   display: flex;
+  flex-direction: column;
   justify-content: center;
 `
-const HomeContainer = styled.div`
-  margin: auto;
-  display: flex;
+const TitleWrapper = styled.div`
+  margin: 0 auto;
 `
-const blinkCaret  = keyframes`
+
+const blinkCaret = keyframes`
   from, to { color: transparent }
   50% { color: white; }
 `
@@ -29,26 +30,27 @@ const textTitle: string = "Welcome to Kratuwu.";
 const Home = ({ forwardedRef }: any) => {
   const [textTyper, setTextTyper] = useState('');
 
-  const typer =(n: number = 0) => {
+  const typer = (n: number = 0) => {
     if (n < (textTitle.length)) {
       n++;
       setTextTyper(textTitle.substring(0, n));
-      setTimeout( () => { typer(n) }, 80 );
+      setTimeout(() => { typer(n) }, 80);
     }
   }
 
   useEffect(() => { typer(); }, []);
-  
+
   return (
     <HomeWrapper ref={forwardedRef}>
-      <HomeContainer >
+      <TitleWrapper>
         <TitleStyled>
           <span>{textTyper}</span>
           <Caret>|</Caret>
         </TitleStyled>
-      </HomeContainer>
+      </TitleWrapper>
+      <Social />
     </HomeWrapper>
   );
 };
 
-export default forwardRef((props, ref) => <Home {...props} forwardedRef={ref} />);
+export default Home;

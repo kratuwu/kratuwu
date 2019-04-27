@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import styled from "styled-components";
 
 const AboutWrapper = styled.div`
@@ -21,4 +21,4 @@ const About = ({ forwardedRef }: any) => {
   )
 };
 
-export default forwardRef((props, ref) => <About {...props} forwardedRef={ref} />);
+export default About;

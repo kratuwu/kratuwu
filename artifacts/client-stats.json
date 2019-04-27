@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.cf303083.js (842 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (852 KiB)\n      styles.7a5ba354.css\n      templates/styles.7a5ba354.js\n      templates/vendors~main.cf303083.js\n      main.2a8ee9d3.js\n"
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (293 KiB). This can impact web performance.\nEntrypoints:\n  main (853 KiB)\n      styles.2dd74616.css\n      templates/styles.2dd74616.js\n      templates/vendors~main.cf303083.js\n      main.62926eb2.js\n"
   ],
   "version": "4.29.6",
-  "hash": "2a8ee9d34dda81280acd",
-  "time": 15627,
-  "builtAt": 1555427661001,
+  "hash": "62926eb22b45d4cf8924",
+  "time": 5933,
+  "builtAt": 1555517881040,
   "publicPath": "/",
   "outputPath": "/Users/Kratuwu/Documents/Projects/web/kratuwu/dist",
   "assetsByChunkName": {
-    "main": "main.2a8ee9d3.js",
+    "main": "main.62926eb2.js",
     "node_modules/react-static/lib/browser/components/Default404": "templates/node_modules/react-static/lib/browser/components/Default404.b17943d1.js",
     "styles": [
-      "styles.7a5ba354.css",
-      "templates/styles.7a5ba354.js"
+      "styles.2dd74616.css",
+      "templates/styles.2dd74616.js"
     ],
     "vendors~main": "templates/vendors~main.cf303083.js"
   },
   "assets": [
     {
-      "name": "main.2a8ee9d3.js",
-      "size": 9682,
+      "name": "main.62926eb2.js",
+      "size": 10025,
       "chunks": [
         0
       ],
@@ -67,7 +67,7 @@
       "emitted": true
     },
     {
-      "name": "styles.7a5ba354.css",
+      "name": "styles.2dd74616.css",
       "size": 527,
       "chunks": [
         2
@@ -89,7 +89,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.7a5ba354.js",
+      "name": "templates/styles.2dd74616.js",
       "size": 82,
       "chunks": [
         2
@@ -121,10 +121,10 @@
         0
       ],
       "assets": [
-        "styles.7a5ba354.css",
-        "templates/styles.7a5ba354.js",
+        "styles.2dd74616.css",
+        "templates/styles.2dd74616.js",
         "templates/vendors~main.cf303083.js",
-        "main.2a8ee9d3.js"
+        "main.62926eb2.js"
       ],
       "children": {},
       "childAssets": {},
@@ -139,10 +139,10 @@
         0
       ],
       "assets": [
-        "styles.7a5ba354.css",
-        "templates/styles.7a5ba354.js",
+        "styles.2dd74616.css",
+        "templates/styles.2dd74616.js",
         "templates/vendors~main.cf303083.js",
-        "main.2a8ee9d3.js"
+        "main.62926eb2.js"
       ],
       "children": {},
       "childAssets": {},
@@ -165,14 +165,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 12766,
+      "size": 13451,
       "names": [
         "main"
       ],
       "files": [
-        "main.2a8ee9d3.js"
+        "main.62926eb2.js"
       ],
-      "hash": "a3986862375464574932",
+      "hash": "0ae5bdf71850fe94baef",
       "siblings": [
         2,
         3
@@ -189,7 +189,7 @@
           "name": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "index": 93,
           "index2": 110,
-          "size": 9893,
+          "size": 10578,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -491,7 +491,7 @@
               "name": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/components/contents/About.tsx",
               "index": 109,
               "index2": 105,
-              "size": 340,
+              "size": 1025,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -554,7 +554,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import _extends from\"@babel/runtime/helpers/extends\";import React,{forwardRef}from\"react\";var About=function About(_ref){var forwardedRef=_ref.forwardedRef;return React.createElement(\"div\",{ref:forwardedRef},\"About\");};export default forwardRef(function(props,ref){return React.createElement(About,_extends({},props,{forwardedRef:ref}));});"
+              "source": "import _extends from\"@babel/runtime/helpers/extends\";import _taggedTemplateLiteral from\"@babel/runtime/helpers/taggedTemplateLiteral\";function _templateObject2(){var data=_taggedTemplateLiteral([\"\\n  font-size: 32px;\\n  @media(min-width: 640px){\\n    font-size: 64px;\\n  }\\n\"]);_templateObject2=function _templateObject2(){return data;};return data;}function _templateObject(){var data=_taggedTemplateLiteral([\"\\n  height: calc(100vh - 60px);\\n  display: flex;\\n  justify-content: center;\\n\"]);_templateObject=function _templateObject(){return data;};return data;}import React,{forwardRef}from\"react\";import styled from\"styled-components\";var AboutWrapper=styled.div(_templateObject());var AboutTitle=styled.h1(_templateObject2());var About=function About(_ref){var forwardedRef=_ref.forwardedRef;return React.createElement(AboutWrapper,{ref:forwardedRef},React.createElement(AboutTitle,null,\"About\"));};export default forwardRef(function(props,ref){return React.createElement(About,_extends({},props,{forwardedRef:ref}));});"
             },
             {
               "id": null,
@@ -1419,10 +1419,10 @@
         "styles"
       ],
       "files": [
-        "styles.7a5ba354.css",
-        "templates/styles.7a5ba354.js"
+        "styles.2dd74616.css",
+        "templates/styles.2dd74616.js"
       ],
-      "hash": "7a5ba354e4efe9b129e2",
+      "hash": "2dd7461665b8b8ca9c09",
       "siblings": [
         0,
         3
@@ -1482,8 +1482,8 @@
           "warnings": 0,
           "assets": [
             "static/roboto-v19-latin-regular.479970ff.woff2",
-            "static/roboto-v19-latin-regular.4be1a572.eot",
             "static/roboto-v19-latin-regular.60fa3c06.woff",
+            "static/roboto-v19-latin-regular.4be1a572.eot",
             "static/roboto-v19-latin-regular.329ae1c3.ttf",
             "static/roboto-v19-latin-regular.8681f434.svg"
           ],
@@ -1504,7 +1504,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 5,
-          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555427650723\n      var cssReload = require(\"/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+          "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555517876806\n      var cssReload = require(\"/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
         },
         {
           "id": "",
@@ -1892,24 +1892,6 @@
               "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
               "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:53-90"
-            },
-            {
-              "moduleId": 19,
-              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "1:163-168"
-            },
-            {
-              "moduleId": 19,
-              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
               "loc": "1:167-172"
@@ -1921,25 +1903,7 @@
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:234-244"
-            },
-            {
-              "moduleId": 19,
-              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
               "loc": "1:240-250"
-            },
-            {
-              "moduleId": 19,
-              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "1:272-277"
             },
             {
               "moduleId": 19,
@@ -2036,6 +2000,15 @@
               "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
               "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:564-601"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
               "loc": "1:574-579"
@@ -2092,7 +2065,43 @@
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
+              "loc": "1:804-809"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:856-861"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
               "loc": "1:914-922"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:919-929"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:957-962"
             },
             {
               "moduleId": 19,
@@ -2851,6 +2860,15 @@
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+              "loc": "1:53-134"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
               "loc": "1:65-146"
             },
             {
@@ -2914,6 +2932,15 @@
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+              "loc": "1:171-193"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
               "loc": "1:183-205"
             },
             {
@@ -2933,6 +2960,15 @@
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
               "loc": "1:342-364"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+              "loc": "1:386-408"
             },
             {
               "moduleId": 19,
@@ -3119,6 +3155,33 @@
               "type": "harmony side effect evaluation",
               "userRequest": "styled-components",
               "loc": "1:544-582"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "styled-components",
+              "loc": "1:601-639"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "styled-components",
+              "loc": "1:656-662"
+            },
+            {
+              "moduleId": 19,
+              "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+              "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+              "type": "harmony import specifier",
+              "userRequest": "styled-components",
+              "loc": "1:701-707"
             },
             {
               "moduleId": 19,
@@ -3676,9 +3739,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -3886,7 +3949,7 @@
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/extends",
-              "loc": "1:298-306"
+              "loc": "1:306-314"
             },
             {
               "moduleId": 19,
@@ -3895,7 +3958,7 @@
               "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/extends",
-              "loc": "1:306-314"
+              "loc": "1:983-991"
             },
             {
               "moduleId": 19,
@@ -3948,9 +4011,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -4654,9 +4717,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -4749,9 +4812,9 @@
           "chunks": [
             3
           ],
-          "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 46,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 79,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 45,
@@ -4759,9 +4822,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -5021,9 +5084,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5360,9 +5423,9 @@
           "chunks": [
             3
           ],
-          "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "issuerId": 46,
-          "issuerName": "../lib/bootstrapPlugins.js",
+          "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "issuerId": 79,
+          "issuerName": "../lib/bootstrapTemplates.js",
           "issuerPath": [
             {
               "id": 45,
@@ -5370,9 +5433,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             }
           ],
           "failed": false,
@@ -5431,9 +5494,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5497,9 +5560,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5568,9 +5631,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5634,9 +5697,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5710,9 +5773,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5791,9 +5854,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5877,9 +5940,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -5953,9 +6016,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -7832,9 +7895,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -7894,9 +7957,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -7956,9 +8019,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8018,9 +8081,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8075,9 +8138,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8137,9 +8200,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8199,9 +8262,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8261,9 +8324,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8318,9 +8381,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8380,9 +8443,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8452,9 +8515,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8519,9 +8582,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8591,9 +8654,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8668,9 +8731,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8750,9 +8813,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8827,9 +8890,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8904,9 +8967,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -8981,9 +9044,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9058,9 +9121,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9135,9 +9198,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9207,9 +9270,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9279,9 +9342,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9356,9 +9419,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9433,9 +9496,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9510,9 +9573,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9577,9 +9640,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9644,9 +9707,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9701,9 +9764,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9763,9 +9826,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9830,9 +9893,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9895,9 +9958,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -9952,9 +10015,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 46,
-              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-              "name": "../lib/bootstrapPlugins.js"
+              "id": 79,
+              "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+              "name": "../lib/bootstrapTemplates.js"
             },
             {
               "id": 25,
@@ -11621,24 +11684,6 @@
           "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
           "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:53-90"
-        },
-        {
-          "moduleId": 19,
-          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "1:163-168"
-        },
-        {
-          "moduleId": 19,
-          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
           "loc": "1:167-172"
@@ -11650,25 +11695,7 @@
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:234-244"
-        },
-        {
-          "moduleId": 19,
-          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
           "loc": "1:240-250"
-        },
-        {
-          "moduleId": 19,
-          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
-          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "1:272-277"
         },
         {
           "moduleId": 19,
@@ -11765,6 +11792,15 @@
           "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
           "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:564-601"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
           "loc": "1:574-579"
@@ -11821,7 +11857,43 @@
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
+          "loc": "1:804-809"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:856-861"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
           "loc": "1:914-922"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:919-929"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:957-962"
         },
         {
           "moduleId": 19,
@@ -12580,6 +12652,15 @@
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+          "loc": "1:53-134"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
           "loc": "1:65-146"
         },
         {
@@ -12643,6 +12724,15 @@
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+          "loc": "1:171-193"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
           "loc": "1:183-205"
         },
         {
@@ -12662,6 +12752,15 @@
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
           "loc": "1:342-364"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "@babel/runtime/helpers/taggedTemplateLiteral",
+          "loc": "1:386-408"
         },
         {
           "moduleId": 19,
@@ -12848,6 +12947,33 @@
           "type": "harmony side effect evaluation",
           "userRequest": "styled-components",
           "loc": "1:544-582"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "styled-components",
+          "loc": "1:601-639"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "styled-components",
+          "loc": "1:656-662"
+        },
+        {
+          "moduleId": 19,
+          "moduleIdentifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-0-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx 210dc3e7101f9a9fcc0d17b3b31a1880",
+          "module": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
+          "type": "harmony import specifier",
+          "userRequest": "styled-components",
+          "loc": "1:701-707"
         },
         {
           "moduleId": 19,
@@ -13405,9 +13531,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -13615,7 +13741,7 @@
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/extends",
-          "loc": "1:298-306"
+          "loc": "1:306-314"
         },
         {
           "moduleId": 19,
@@ -13624,7 +13750,7 @@
           "moduleName": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/extends",
-          "loc": "1:306-314"
+          "loc": "1:983-991"
         },
         {
           "moduleId": 19,
@@ -13677,9 +13803,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -14383,9 +14509,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -14478,9 +14604,9 @@
       "chunks": [
         3
       ],
-      "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 46,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 79,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 45,
@@ -14488,9 +14614,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -14732,7 +14858,7 @@
       "name": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/App.tsx + 9 modules",
       "index": 93,
       "index2": 110,
-      "size": 9893,
+      "size": 10578,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -15034,7 +15160,7 @@
           "name": "/Users/Kratuwu/Documents/Projects/web/kratuwu/src/components/contents/About.tsx",
           "index": 109,
           "index2": 105,
-          "size": 340,
+          "size": 1025,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -15097,7 +15223,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import _extends from\"@babel/runtime/helpers/extends\";import React,{forwardRef}from\"react\";var About=function About(_ref){var forwardedRef=_ref.forwardedRef;return React.createElement(\"div\",{ref:forwardedRef},\"About\");};export default forwardRef(function(props,ref){return React.createElement(About,_extends({},props,{forwardedRef:ref}));});"
+          "source": "import _extends from\"@babel/runtime/helpers/extends\";import _taggedTemplateLiteral from\"@babel/runtime/helpers/taggedTemplateLiteral\";function _templateObject2(){var data=_taggedTemplateLiteral([\"\\n  font-size: 32px;\\n  @media(min-width: 640px){\\n    font-size: 64px;\\n  }\\n\"]);_templateObject2=function _templateObject2(){return data;};return data;}function _templateObject(){var data=_taggedTemplateLiteral([\"\\n  height: calc(100vh - 60px);\\n  display: flex;\\n  justify-content: center;\\n\"]);_templateObject=function _templateObject(){return data;};return data;}import React,{forwardRef}from\"react\";import styled from\"styled-components\";var AboutWrapper=styled.div(_templateObject());var AboutTitle=styled.h1(_templateObject2());var About=function About(_ref){var forwardedRef=_ref.forwardedRef;return React.createElement(AboutWrapper,{ref:forwardedRef},React.createElement(AboutTitle,null,\"About\"));};export default forwardRef(function(props,ref){return React.createElement(About,_extends({},props,{forwardedRef:ref}));});"
         },
         {
           "id": null,
@@ -15572,9 +15698,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -15974,9 +16100,9 @@
       "chunks": [
         3
       ],
-      "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-      "issuerId": 46,
-      "issuerName": "../lib/bootstrapPlugins.js",
+      "issuer": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+      "issuerId": 79,
+      "issuerName": "../lib/bootstrapTemplates.js",
       "issuerPath": [
         {
           "id": 45,
@@ -15984,9 +16110,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         }
       ],
       "failed": false,
@@ -16045,9 +16171,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -16111,9 +16237,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -16182,9 +16308,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -16248,9 +16374,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -16324,9 +16450,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -16405,9 +16531,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -16491,9 +16617,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -16567,9 +16693,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -18613,9 +18739,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -18675,9 +18801,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -18737,9 +18863,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -18799,9 +18925,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -18856,9 +18982,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -18918,9 +19044,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -18980,9 +19106,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19042,9 +19168,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19099,9 +19225,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19161,9 +19287,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19233,9 +19359,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19300,9 +19426,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19372,9 +19498,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19449,9 +19575,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19531,9 +19657,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19608,9 +19734,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19685,9 +19811,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19762,9 +19888,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19839,9 +19965,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19916,9 +20042,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -19988,9 +20114,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20060,9 +20186,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20137,9 +20263,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20214,9 +20340,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20291,9 +20417,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20358,9 +20484,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20425,9 +20551,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20482,9 +20608,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20544,9 +20670,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20611,9 +20737,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20676,9 +20802,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -20733,9 +20859,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 46,
-          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapPlugins.js",
-          "name": "../lib/bootstrapPlugins.js"
+          "id": 79,
+          "identifier": "/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/babel-loader/lib/index.js??ref--4-oneOf-2-0!/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/react-static/lib/bootstrapTemplates.js",
+          "name": "../lib/bootstrapTemplates.js"
         },
         {
           "id": 25,
@@ -22278,8 +22404,8 @@
       "warnings": 0,
       "assets": [
         "static/roboto-v19-latin-regular.479970ff.woff2",
-        "static/roboto-v19-latin-regular.4be1a572.eot",
         "static/roboto-v19-latin-regular.60fa3c06.woff",
+        "static/roboto-v19-latin-regular.4be1a572.eot",
         "static/roboto-v19-latin-regular.329ae1c3.ttf",
         "static/roboto-v19-latin-regular.8681f434.svg"
       ],
@@ -22300,7 +22426,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 5,
-      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555427650723\n      var cssReload = require(\"/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
+      "source": "// extracted by extract-css-chunks-webpack-plugin\n    if(module.hot) {\n      // 1555517876806\n      var cssReload = require(\"/Users/Kratuwu/Documents/Projects/web/kratuwu/node_modules/extract-css-chunks-webpack-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"hot\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  "
     },
     {
       "id": "",
