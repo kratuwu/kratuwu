@@ -3,31 +3,51 @@ import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const SocialWrapper = styled.div`
+const SocialWrapper = styled.ul`
   display: flex;
   justify-content: center;
+  list-style: none;
 `
 
-const SocialItem = styled.a`
-  height: 40px;
+const SocialLink = styled.a`
   width: 40px;
-  line-height: 40px;
-  text-align: center;
-  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+const SocialItem = styled.li`
+  border-radius: 100%;
+  background: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #990000;
+`
+const Icon = styled(FontAwesomeIcon)`
+  color: #990000;
 `
 
 const Social = () => {
   return (
     <SocialWrapper>
-      <SocialItem href="https://linkedin.com/in/krittawat-sup" target="_blank">
-        <FontAwesomeIcon icon={['fab', 'linkedin']} />
-      </SocialItem>
-      <SocialItem href="https://github.com/kratuwu" target="_blank">
-        <FontAwesomeIcon icon={['fab', 'github']} />
-      </SocialItem>
-      <SocialItem href="https://www.facebook.com/krittawat.suphankomut" target="_blank">
-        <FontAwesomeIcon icon={['fab', 'facebook']} />
+      <SocialLink href="https://linkedin.com/in/krittawat-sup" target="_blank">
+        <SocialItem >
+          <Icon icon={['fab', 'linkedin-in']} />
         </SocialItem>
+      </SocialLink>
+      <SocialLink href="https://github.com/kratuwu" target="_blank">
+        <SocialItem >
+          <Icon icon={['fab', 'github']} />
+        </SocialItem>
+      </SocialLink>
+      <SocialLink href="https://www.facebook.com/krittawat.suphankomut" target="_blank">
+        <SocialItem >
+          <Icon icon={['fab', 'facebook-f']} />
+        </SocialItem>
+      </SocialLink>
     </SocialWrapper>
   )
 }
