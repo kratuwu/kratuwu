@@ -1,6 +1,6 @@
 import React, { createRef } from 'react';
 // import logo from './logo.svg';
-// import './App.css';
+import './App.css';
 
 import MainLayout from "./components/layouts/MainLayout";
 import Home from "./components/contents/Home";
