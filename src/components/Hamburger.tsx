@@ -4,8 +4,11 @@ import styled from "styled-components";
 
 const HamburgerWrapper = styled.div`
     padding-right: 10px;
-    margin-left: auto;
+    /* margin-left: auto; */
     display: block;
+    right: 0;
+    position: fixed;
+    padding: 15px;
     cursor: pointer;
     @media (min-width: 768px) {
         display: none;
