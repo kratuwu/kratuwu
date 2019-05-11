@@ -2,14 +2,17 @@ import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import Social from "../Social"
 const HomeWrapper = styled.div`
-  height: calc(100vh - 60px);
+  height: calc(100vh - 0px);
   background-color: rgba(0,0,0,.65);
   display: flex;
   flex-direction: column;
   justify-content: center;
-`
-const TitleWrapper = styled.div`
-  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 15px;
+  @media(min-width: 640px){
+    padding: unset;
+  }
 `
 
 const blinkCaret = keyframes`
@@ -42,12 +45,11 @@ const Home = ({ forwardedRef }: any) => {
 
   return (
     <HomeWrapper ref={forwardedRef}>
-      <TitleWrapper>
-        <TitleStyled>
-          <span>{textTyper}</span>
-          <Caret>|</Caret>
-        </TitleStyled>
-      </TitleWrapper>
+      <TitleStyled>
+        <span>{textTyper}</span>
+        <Caret>|</Caret>
+      </TitleStyled>
+      <p>Hi! I'm Krittawat Suphankomut, I am a software developer from Thailand.</p>
       <Social />
     </HomeWrapper>
   );
