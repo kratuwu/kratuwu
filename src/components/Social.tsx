@@ -7,10 +7,11 @@ const SocialWrapper = styled.ul`
   display: flex;
   justify-content: center;
   list-style: none;
+  padding-inline-start: unset;
 `
 
 const SocialLink = styled.a`
-  width: 40px;
+  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,16 +19,23 @@ const SocialLink = styled.a`
 
 const SocialItem = styled.li`
   border-radius: 100%;
-  background: white;
-  height: 30px;
-  width: 30px;
+  border: 1px solid #ffffff;
+  height: 50px;
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #990000;
+  transition: background 0.25s;
+  ${SocialLink}:hover & {
+    background: #ffffff;
+  }
 `
 const Icon = styled(FontAwesomeIcon)`
-  color: #990000;
+  color: #ffffff;
+  transition: color 0.25s;
+  ${SocialLink}:hover & {
+    color: #990000;
+  }
 `
 
 const Social = () => {
