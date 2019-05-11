@@ -1,39 +1,44 @@
 {
-  "name": "kratuwu",
+  "name": "my-app",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "bundle": "react-static bundle",
-    "export": "react-static export",
-    "serve": "serve dist -p 3000 -s"
-  },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.17",
-    "@fortawesome/free-brands-svg-icons": "^5.8.1",
-    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-brands-svg-icons": "^5.8.2",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "@reach/router": "^1.2.1",
-    "@types/styled-components": "^4.1.14",
-    "axios": "^0.18.0",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
-    "react-static": "^7.0.7",
-    "react-static-plugin-reach-router": "^7.0.7",
-    "react-static-plugin-sitemap": "^7.0.0",
-    "react-static-plugin-source-filesystem": "^7.0.0",
-    "react-static-plugin-typescript": "^7.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "typescript": "3.4.5",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.23",
-    "@types/reach__router": "^1.2.2",
-    "@types/react": "^16.8.2",
-    "@types/react-dom": "^16.8.0",
-    "@types/react-hot-loader": "^4.1.0",
-    "@types/webpack-env": "^1.13.6",
-    "serve": "10.1.1",
-    "typescript": "^3.4.1"
+    "@types/jest": "24.0.12",
+    "@types/node": "12.0.0",
+    "@types/react": "16.8.17",
+    "@types/react-dom": "16.8.4",
+    "@types/styled-components": "^4.1.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
