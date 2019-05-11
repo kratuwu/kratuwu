@@ -20,7 +20,7 @@ const Mobile = () => {
                 <WebIcon icon={['fab', 'android']} />
                 <WebIcon icon={['fab', 'apple']} />
             </IconGroup>
-            <h3>Cross Platform Mobile development</h3>
+            <h3>Cross Platform Mobile</h3>
         </WorkItemContainer>
     )
 }

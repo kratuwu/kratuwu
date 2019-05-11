@@ -11,7 +11,7 @@ const Web = () => {
     return (
         <WorkItemContainer>
             <WebIcon icon={['fas', 'laptop-code']} />
-            <h3>Web development</h3>
+            <h3>Web</h3>
         </WorkItemContainer>
     )
 }
