@@ -1,3 +1,5 @@
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
+
 export interface Post {
   body: string
   id: number
@@ -7,4 +9,5 @@ export interface Post {
 export type ContentRef = {
   name: string;
   ref: React.RefObject<{}>;
+  icon: IconProp;
 };
