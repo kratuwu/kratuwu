@@ -1,26 +1,26 @@
 import React, { createRef } from "react";
 import MainLayout from "./components/layouts/MainLayout";
 import Home from "./components/contents/Home";
-import About from "./components/contents/About";
+import Work from "./components/contents/Work";
 import Contact from "./components/contents/Contact";
 import { ContentRef } from "../types";
 import { GlobalStyle } from "./styles";
 const App = () => {
   const homeRef = createRef();
-  const aboutRef = createRef();
+  const workRef = createRef();
   const contactRef = createRef();
 
   const contentRefs: ContentRef[] = [
-    { name: "Home", ref: homeRef },
-    { name: "About", ref: aboutRef },
-    { name: "Contact", ref: contactRef }
+    { name: "Home", ref: homeRef, icon: ["fas", "home"] },
+    { name: "Work", ref: workRef, icon: ["fas", "code"] },
+    { name: "Contact", ref: contactRef, icon: ["fas", "id-card"] }
   ];
 
   return (
     <MainLayout contentRefs={contentRefs}>
       <GlobalStyle />
       <Home forwardedRef={homeRef} />
-      <About forwardedRef={aboutRef} />
+      <Work forwardedRef={workRef} />
       <Contact forwardedRef={contactRef} />
     </MainLayout>
   );
