@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import Social from "../Social"
 const HomeWrapper = styled.div`
-  height: calc(100vh - 0px);
+  min-height: calc(100vh - 60px);
   background-color: rgba(0,0,0,.65);
   display: flex;
   flex-direction: column;

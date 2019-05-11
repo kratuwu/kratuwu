@@ -9,9 +9,7 @@ import { ContentRef } from "../../../types";
 // import SideNavigation from "./SideNavigation";
 
 const ContentWrapper = styled.div`
-  /* margin-top: 60px; */
-  
-
+  margin-top: 60px;
 `;
 
 
