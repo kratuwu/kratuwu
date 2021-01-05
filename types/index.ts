@@ -8,6 +8,6 @@ export interface Post {
 
 export type ContentRef = {
   name: string;
-  ref: React.RefObject<{}>;
+  ref: React.RefObject<any>;
   icon: IconProp;
 };
