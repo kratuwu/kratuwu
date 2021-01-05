@@ -13,7 +13,6 @@ const HeaderStyled = styled.header`
 
 const HeaderWraper = styled.nav`
   color: white;
-  margin: 0 20px;
   height: 60px;
   display: flex;
   flex-direction: row;
