@@ -30,12 +30,12 @@ const blinkCaret = keyframes`
       hsl(179, 85%, 66%)
     );
     background-position: 100% 50%;
+    -webkit-background-clip: text;
   }
 `;
-const Caret = styled.div`
+const Caret = styled.span`
   animation: ${blinkCaret} 0.75s step-end infinite;
-  width: 3px;
-  margin-left: 3px;
+  -webkit-text-fill-color: transparent;
 `;
 const TitleStyled = styled.h1`
   font-size: 32px;
@@ -69,9 +69,11 @@ const Home = ({ forwardedRef }: any) => {
     <HomeWrapper ref={forwardedRef}>
       <TitleStyled>
         <div>
-          <span>{textTyper}</span>
+          <span>
+            {textTyper}
+            <Caret>|</Caret>
+          </span>
         </div>
-        <Caret />
       </TitleStyled>
       <p>
         Hi! I'm Krittawat Suphankomut, I am a software developer from Thailand.
