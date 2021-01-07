@@ -3,7 +3,7 @@ import React, { createRef } from "react";
 import "./App.css";
 import MainLayout from "./components/layouts/MainLayout";
 import Home from "./components/contents/Home";
-import Work from "./components/contents/Work";
+// import Work from "./components/contents/Work";
 import Contact from "./components/contents/Contact";
 import { ContentRef } from "../types";
 import { GlobalStyle } from "./styles";
@@ -11,7 +11,7 @@ import { Experience } from "./components/contents/Experience";
 
 const App: React.FC = () => {
   const homeRef = createRef();
-  const workRef = createRef();
+  // const workRef = createRef();
   const experienceRef = createRef();
   const contactRef = createRef();
   const contentRefs: ContentRef[] = [
