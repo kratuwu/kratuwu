@@ -2,59 +2,44 @@ import React from "react";
 import styled from "styled-components";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { color } from "../styles/colors";
 
-const SocialWrapper = styled.ul`
+const SocialWrapper = styled.div`
   display: flex;
   justify-content: center;
   list-style: none;
+  z-index: 1;
   padding-inline-start: unset;
 `;
 
 const SocialLink = styled.a`
   width: 60px;
-  position: relative;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  &:before {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    content: "";
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    top: -2px;
-    left: -2px;
-    padding: 2px;
-    z-index: -1;
-    background: #fff;
-    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
-    transition: transform 0.2s, opacity 0.2s;
-  }
 `;
 
 const SocialItem = styled.li`
   border-radius: 50%;
-  border: 1px solid #ffffff;
+  border: 1px solid ${color.border};
   height: 50px;
   width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: background 0.25s;
+  background-color: white;
+  z-index: 9;
   ${SocialLink}:hover & {
-    background: #ffffff;
+    background: ${color.text};
   }
 `;
 const Icon = styled(FontAwesomeIcon)`
-  color: #ffffff;
+  color: ${color.primary};
+
   transition: color 0.25s;
   ${SocialLink}:hover & {
-    color: #990000;
+    color: #ffffff;
   }
 `;
 

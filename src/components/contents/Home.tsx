@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import styled, { keyframes } from "styled-components";
+import { color } from "../../styles/colors";
 import Social from "../Social";
 const HomeWrapper = styled.div`
   min-height: calc(100vh - 60px);
-  background-color: rgb(0, 0, 0);
+  background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   color: #ffffff;
   padding: 0 15px;
@@ -39,6 +40,7 @@ const Caret = styled.span`
 `;
 const TitleStyled = styled.h1`
   font-size: 32px;
+  color: ${color.text};
   @media (min-width: 640px) {
     font-size: 64px;
   }
@@ -67,18 +69,39 @@ const Home = ({ forwardedRef }: any) => {
 
   return (
     <HomeWrapper ref={forwardedRef}>
-      <TitleStyled>
-        <div>
-          <span>
-            {textTyper}
-            <Caret>|</Caret>
-          </span>
-        </div>
-      </TitleStyled>
-      <p>
-        Hi! I'm Krittawat Suphankomut, I am a software developer from Thailand.
-      </p>
+      <div>
+        <TitleStyled>
+          <div>
+            <span>
+              {textTyper}
+              <Caret>|</Caret>
+            </span>
+          </div>
+        </TitleStyled>
+        <p style={{ color: color.secoundary }}>
+          Hi! I'm Krittawat Suphankomut, I am a software developer from
+          Thailand.
+        </p>
+      </div>
       <Social />
+      <svg className="waves" viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="wave-gradient" gradientTransform="rotate(90)">
+            <stop offset="5%" stopColor="#ff4b01" />
+            <stop offset="35%" stopColor="#373b44" />
+          </linearGradient>
+          <path
+            id="a"
+            d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18v44h-352z"
+          />
+        </defs>
+        <g className="wave-paths">
+          <use href="#a" x="0" />
+          <use href="#a" x="50" y="3" />
+          <use href="#a" x="100" y="5" />
+          <use href="#a" x="150" y="7" />
+        </g>
+      </svg>
     </HomeWrapper>
   );
 };

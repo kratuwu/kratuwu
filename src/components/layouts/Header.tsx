@@ -1,18 +1,19 @@
 import React, { SFC } from "react";
 import styled from "styled-components";
+import { color } from "../../styles/colors";
 
 const HeaderStyled = styled.header`
   top: 0;
   left: 0;
-  background: black;
+  background: white;
   position: fixed;
   line-height: 60px;
   width: 100%;
-  box-shadow: 0 5px 10px -5px rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid ${color.border};
+  z-index: 9;
 `;
 
 const HeaderWraper = styled.nav`
-  color: white;
   height: 60px;
   display: flex;
   flex-direction: row;

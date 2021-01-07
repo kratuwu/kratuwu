@@ -6,6 +6,7 @@ import Navigation from "./Navigation";
 import Hamburger from "../Hamburger";
 import Footer from "./Footer";
 import { ContentRef } from "../../../types";
+import { color } from "../../styles/colors";
 // import SideNavigation from "./SideNavigation";
 
 const ContentWrapper = styled.div`
@@ -17,6 +18,7 @@ const Brand = styled.div`
   font-size: 24px;
   font-weight: bold;
   padding-left: 10px;
+  color: ${color.primary}
 `;
 type MainLayoutProps = {
   contentRefs: ContentRef[];
@@ -37,7 +39,7 @@ const MainLayout: SFC<MainLayoutProps> = ({ children, contentRefs }) => {
       {/* <SideNavigation contentRefs={contentRefs} open = {navOpen}/> */}
       {/* <SideNavigation contentRefs={contentRefs}/> */}
       <ContentWrapper children={children} />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 };

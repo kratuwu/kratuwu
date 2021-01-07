@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SideNavigationWrapper = styled.div`
   opacity: 0.75;
   display: none;
-  /* max-height: ${(props: any) => (props.open ? "212px" : "0px")}; */
   overflow: hidden;
   transition: max-height 0.5s ease;
   position: fixed;
