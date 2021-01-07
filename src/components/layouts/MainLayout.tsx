@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import Hamburger from "../Hamburger";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import { ContentRef } from "../../../types";
 import { color } from "../../styles/colors";
 // import SideNavigation from "./SideNavigation";
