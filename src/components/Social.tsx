@@ -20,7 +20,6 @@ const SocialLink = styled.a`
 `;
 
 const SocialItem = styled.li`
-  pointer-events: none;
   border-radius: 50%;
   border: 1px solid ${color.border};
   height: 50px;
@@ -36,7 +35,6 @@ const SocialItem = styled.li`
   }
 `;
 const Icon = styled(FontAwesomeIcon)`
-  pointer-events: none;
   color: ${color.primary};
   transition: color 0.25s;
   ${SocialLink}:hover & {
