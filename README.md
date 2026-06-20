@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Hi, I'm Krittawat Suphankomut
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Senior Software Engineer based in Bangkok, Thailand. I build backend services, real-time data ingestion systems, microservices, and web/mobile applications.
 
-## Available Scripts
+I work mostly with **Java**, **TypeScript**, distributed systems, streaming data, and cloud platforms. Recently, my work has focused on real-time market data ingestion, exchange feed processing, binary protocol decoding, and reliable streaming pipelines.
 
-In the project directory, you can run:
+## Focus
 
-### `npm start`
+- Real-time data ingestion and stream processing
+- Backend services and microservice architecture
+- REST APIs and integration-heavy systems
+- Technical design, impact analysis, and mentoring
+- Web and mobile application development
+- Automated testing for APIs, web, and mobile apps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech I Use
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Languages:** Java, TypeScript, JavaScript  
+**Backend:** Quarkus, Spring Boot, REST APIs, Kafka  
+**Frontend:** React, React Native, Angular, Svelte  
+**Databases:** PostgreSQL, MySQL, Redis, MongoDB, Gremlin  
+**Cloud & Tools:** AWS, Azure, GCP, Cloudflare, Docker, Git  
+**Testing:** Robot Framework, Selenium, Appium
 
-### `npm test`
+## Recent Work
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Built real-time market data ingestion services using Java, Quarkus, and Gradle
+- Integrated exchange feeds from NASDAQ Canada, CBOE, and other providers
+- Developed UDP multicast consumers for high-volume binary market data streams
+- Implemented sequence-based packet loss detection and data validation
+- Published streaming data into analytics and historical persistence workflows
 
-### `npm run build`
+## Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [LinkedIn](https://linkedin.com/in/krittawat-sup)
+- [Credly](https://www.credly.com/users/krittawat-s)
+- [Resume repository](https://github.com/kratuwu/resume)
