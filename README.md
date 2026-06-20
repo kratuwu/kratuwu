@@ -1,7 +1,5 @@
 <div align="center">
 
-# Krittawat Suphankomut
-
 **Senior Software Engineer | Java & TypeScript | Real-time Data Systems**
 
 Bangkok, Thailand
@@ -14,7 +12,7 @@ Bangkok, Thailand
 
 ---
 
-I build backend services, real-time data ingestion systems, microservices, and web/mobile applications. My recent work focuses on market data ingestion, exchange feed processing, binary protocol decoding, and reliable streaming pipelines.
+I build backend services, real-time data ingestion systems, microservices, and web applications. My recent work focuses on market data ingestion, exchange feed processing, binary protocol decoding, and reliable streaming pipelines.
 
 I enjoy turning complex business workflows into clear technical designs, then helping teams ship them with maintainable code, good review habits, and practical testing.
 
@@ -24,7 +22,7 @@ I enjoy turning complex business workflows into clear technical designs, then he
 Real-time data       UDP multicast consumers, exchange feeds, packet loss detection
 Backend systems      Java, Quarkus, Spring Boot, REST APIs, Kafka
 Architecture         Technical design, impact analysis, scalable service boundaries
-Frontend & mobile    React, React Native, Angular, Svelte
+Frontend             React
 Quality              Robot Framework, Selenium, Appium, code review, mentoring
 Cloud & tooling      AWS, Azure, GCP, Cloudflare, Docker, Git
 ```
@@ -39,9 +37,6 @@ Cloud & tooling      AWS, Azure, GCP, Cloudflare, Docker, Git
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
   <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
-  <img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white" alt="Svelte" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
@@ -65,7 +60,7 @@ Cloud & tooling      AWS, Azure, GCP, Cloudflare, Docker, Git
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=kratuwu&show_icons=true&hide_border=true&theme=default&rank_icon=github" alt="Krittawat's GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=kratuwu&show_icons=true&hide_border=true&theme=default&rank_icon=github" alt="GitHub stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kratuwu&layout=compact&hide_border=true&theme=default" alt="Top languages" />
 
 </div>
