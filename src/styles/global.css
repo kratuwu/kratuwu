@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f7f5ef;
+  color: #17202a;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(120deg, rgb(217 79 48 / 0.08), transparent 32rem),
+    linear-gradient(220deg, rgb(9 107 114 / 0.12), transparent 38rem),
+    #f7f5ef;
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
