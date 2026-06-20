@@ -56,6 +56,29 @@ Cloud & tooling      AWS, Azure, GCP, Cloudflare, Docker, Git
 - Published streaming data into analytics and historical persistence workflows
 - Led technical design, impact analysis, mentoring, and code review for banking and enterprise systems
 
+## Featured Project
+
+<table>
+  <tr>
+    <td>
+      <h3><a href="https://github.com/kratuwu/bangkok-train-fare">bangkok-train-fare</a></h3>
+      <p>TypeScript utilities for Bangkok train station lookup, route building, and fare estimation.</p>
+      <p>
+        Built as a practical package for working with Bangkok transit data, including station search, path building, fare calculation, and automated npm publishing through GitHub Actions.
+      </p>
+      <p>
+        <a href="https://github.com/kratuwu/bangkok-train-fare">
+          <img src="https://img.shields.io/badge/GitHub-Repository-24292F?style=flat-square&logo=github&logoColor=white" alt="GitHub repository" />
+        </a>
+        <a href="https://www.npmjs.com/package/bangkok-train-fare">
+          <img src="https://img.shields.io/badge/npm-bangkok--train--fare-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm package" />
+        </a>
+        <img src="https://img.shields.io/badge/TypeScript-Package-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript package" />
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## GitHub Snapshot
 
 <div align="center">
