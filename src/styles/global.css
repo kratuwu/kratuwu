@@ -11,12 +11,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   min-height: 100vh;
   margin: 0;
   background: #111417;
+  overflow-x: hidden;
 }
 
 a {
@@ -25,4 +27,71 @@ a {
 
 img {
   display: block;
+}
+
+.portfolio-photo {
+  transform: scale(1);
+  transition: transform 1100ms cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: transform;
+}
+
+.group:hover .portfolio-photo {
+  transform: scale(1.045);
+}
+
+.gallery-dialog {
+  opacity: 0;
+  transform: translateY(8px) scale(0.975);
+  transition:
+    opacity 260ms cubic-bezier(0.19, 1, 0.22, 1),
+    transform 320ms cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: opacity, transform;
+}
+
+.gallery-dialog::backdrop {
+  background: rgb(0 0 0 / 0);
+  transition: background 280ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.gallery-dialog[data-entered='true'] {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.gallery-dialog[data-entered='true']::backdrop {
+  background: rgb(0 0 0 / 0.78);
+}
+
+.gallery-dialog[data-closing='true'] {
+  opacity: 0;
+  transform: translateY(0) scale(1);
+}
+
+.gallery-dialog[data-closing='true']::backdrop {
+  background: rgb(0 0 0 / 0);
+}
+
+.gallery-dialog-panel {
+  transform: translateY(16px);
+  transition: transform 360ms cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: transform;
+}
+
+.gallery-dialog[data-entered='true'] .gallery-dialog-panel {
+  transform: translateY(0);
+}
+
+.gallery-dialog[data-closing='true'] .gallery-dialog-panel {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *:not(.portfolio-photo, .gallery-dialog, .gallery-dialog-panel),
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
